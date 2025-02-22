@@ -1,0 +1,100 @@
+<html>
+  <head>
+    <title>Action Required: Editing local CSS files with CSS Scan</title>
+    <style>
+      body {
+        font-family: CerebriSans, -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+      }
+
+      body {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        color: #333;
+        font-size: 18px;
+        margin: 0 auto;
+        text-align: center;
+        background: #fff;
+      }
+
+      body:after {
+        content: '';
+        width: 100%;
+        height: 25vh;
+        background: linear-gradient(180deg, #c7f6da, white);
+        position: absolute;
+        display: block;
+        top: 0;
+        z-index: -1;
+      }
+
+      .limited-width {
+        margin: 0 auto;
+        max-width: 1200px;
+      }
+
+      .hero {
+        margin: 110px 0 0;
+      }
+
+      .welcome {
+        max-width: min(90%, 800px);
+      }
+
+      @media screen and (min-width: 735px) {
+        .hero {
+          margin-top: 165px;
+        }
+      }
+
+      .hero p {
+        font-size: 20px;
+        line-height: 1.5;
+        margin: 0 9% 48px;
+        opacity: 1;
+      }
+
+      .welcome>p {
+        max-width: min(90%, 600px);
+      }
+
+      body.limited-to-100vh {
+        max-height: 100vh;
+        overflow: hidden;
+      }
+
+      @media screen and (min-width: 735px) {
+        .hero p {
+          font-size: 22px;
+        }
+      }
+
+      @media screen and (min-width: 1024px) {
+        .hero p {
+          margin: 0 auto 48px;
+        }
+      }
+
+      .instructions-img {
+        max-width: 100%;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body class="limited-to-100vh inherited-styles-for-exported-element">
+    <div class="limited-width" style="
+      height: 100vh;
+      margin: initial;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0px auto 0;
+    ">
+      <div class="hero welcome" style="margin-top: 0">
+        <p>To edit local CSS files, please allow "access to file URLs" in the extension's settings on your browser, and then wait a bit.<br><br>The settings page will appear in 5 seconds.</p>
+        <a onClick="alert('hi')">
+          <img src="img/allowFileAccessInstruction.jpg" class="instructions-img">
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

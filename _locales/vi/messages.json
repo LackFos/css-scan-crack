@@ -1,0 +1,149 @@
+{
+   "activate": {
+      "message": "Kích hoạt phần mở rộng"
+   },
+   "ask_review": {
+      "message": "Bạn thích CSS Scan? Giúp chúng tôi đánh giá"
+   },
+   "click_to_copy": {
+      "message": "Nhần chuột để sao chép, nhấn phím space để ghim"
+   },
+   "click_traverse": {
+      "message": "và nhấn chuột để chuyển qua"
+   },
+   "close_shortcut": {
+      "message": "Đóng phần mở rộng"
+   },
+   "context_menu": {
+      "message": "Kiểm tra bằng CSS Scan"
+   },
+   "continue": {
+      "message": "Tiếp tục"
+   },
+   "copied": {
+      "message": "Sao chép vào bộ nhớ tạm"
+   },
+   "copying": {
+      "message": "Đang sao chép kiểu của tất cả các phần tử con ... \u003Cbr> Nhấp lại để hủy."
+   },
+   "description": {
+      "message": "Kiểm tra và sao chép nhanh mã CSS"
+   },
+   "exit": {
+      "message": "Đóng CSS Scan"
+   },
+   "feedback": {
+      "message": "Phản hồi"
+   },
+   "hold": {
+      "message": "giữ phím"
+   },
+   "loading": {
+      "message": "Đang tải kiểu... Xin thử lại"
+   },
+   "move": {
+      "message": "Di chuyển"
+   },
+   "no_styles": {
+      "message": "Không tìm thấy kiểu"
+   },
+   "options": {
+      "message": "Các lựa chọn"
+   },
+   "options_absolute_urls": {
+      "message": "Chuyển đổi URL tương đối thành tuyệt đối"
+   },
+   "options_click_to_copy": {
+      "message": "Sao chép mã"
+   },
+   "options_click_to_pin": {
+      "message": "Ghim cửa sổ CSS"
+   },
+   "options_convert_fontsize_to_px": {
+      "message": "Quy đổi đơn vị font-size sang px"
+   },
+   "options_copy": {
+      "message": "Sao chép nó"
+   },
+   "options_copy_original_selectors": {
+      "message": "Sao chép bộ chọn ban đầu"
+   },
+   "options_dont_copy": {
+      "message": "Đừng sao chép nó"
+   },
+   "options_dont_copy_selectors_when_possible": {
+      "message": "Không sao chép bộ chọn CSS khi có thể"
+   },
+   "options_guidelines": {
+      "message": "Guidelines"
+   },
+   "options_ignore_bxsizing": {
+      "message": "Bỏ qua box-sizing"
+   },
+   "options_ignore_inherited": {
+      "message": "Bỏ qua các kiểu kế thừa"
+   },
+   "options_ignore_prefixes": {
+      "message": "Bỏ qua tiền tố của nhà cung cấp trình duyệt"
+   },
+   "options_label_child_elements": {
+      "message": "Phần tử con 'CSS:"
+   },
+   "options_label_click_action": {
+      "message": "Trong một cái nhấp chuột:"
+   },
+   "options_label_copy_preferences_selectors": {
+      "message": "Sao chép tùy chọn cho bộ chọn CSS:"
+   },
+   "options_label_display": {
+      "message": "Trưng bày:"
+   },
+   "options_label_html": {
+      "message": "Mã HTML:"
+   },
+   "options_label_other_copy_preferences": {
+      "message": "Các tùy chọn sao chép khác:"
+   },
+   "options_nest_pseudos": {
+      "message": "Nest pseudo-class, pseudo-element và media query (đối với SASS / LESS)"
+   },
+   "options_show_grid": {
+      "message": "Grid"
+   },
+   "options_smartly_generate_selectors": {
+      "message": "Tạo bộ chọn một cách thông minh"
+   },
+   "options_truncate_classes": {
+      "message": "Bộ chọn cắt ngắn"
+   },
+   "overlapping": {
+      "message": "trùng nhau"
+   },
+   "pause": {
+      "message": "Tạm dừng"
+   },
+   "pause_continue": {
+      "message": "Tạm dừng / Tiếp tục"
+   },
+   "pin_shortcut": {
+      "message": "Pin box"
+   },
+   "scan_parent": {
+      "message": "Quét thành phần mẹ"
+   },
+   "shortcuts": {
+      "message": "Các phím tắt"
+   },
+   "shortcuts_warning_1": {
+      "message": "Trang cần được chọn để phím tắt có thể hoạt động. Bạn nên luôn luôn mở phần mở rộng bằng phím tắt."
+   },
+   "shortcuts_warning_2": {
+      "message": "Bạn cũng có thể thay đổi chúng khi nhấn lên nút này."
+   },
+   "toggle_grid": {
+      "message": "Chuyển sang chế độ lưới"
+   },
+   "whats_new": {
+      "message": "Có gì mới"
+   }
+}

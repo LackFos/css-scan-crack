@@ -1,0 +1,149 @@
+{
+   "activate": {
+      "message": "Activar la extensión"
+   },
+   "ask_review": {
+      "message": "¿Disfrutas de CSS Scan? Ayúdanos con una reseña"
+   },
+   "click_to_copy": {
+      "message": "Click para copiar, presione espacio para fijar"
+   },
+   "click_traverse": {
+      "message": "y haga click para recorrer"
+   },
+   "close_shortcut": {
+      "message": "Cerrar la extensión"
+   },
+   "context_menu": {
+      "message": "Inspeccionar con CSS Scan"
+   },
+   "continue": {
+      "message": "Continuar"
+   },
+   "copied": {
+      "message": "Copiado en el portapapeles"
+   },
+   "copying": {
+      "message": "Copiando estilos de todos los elementos secundarios...\u003Cbr>Haga clic de nuevo para cancelar."
+   },
+   "description": {
+      "message": "Inspeccionar rápidamente y copiar CSS computado"
+   },
+   "exit": {
+      "message": "Cerrar CSS Scan"
+   },
+   "feedback": {
+      "message": "Comentarios"
+   },
+   "hold": {
+      "message": "sostener"
+   },
+   "loading": {
+      "message": "Cargando estilos... pruebe otra vez"
+   },
+   "move": {
+      "message": "Mover"
+   },
+   "no_styles": {
+      "message": "No se encontraron estilos"
+   },
+   "options": {
+      "message": "Opciones"
+   },
+   "options_absolute_urls": {
+      "message": "Convertir URL relativas a absolutas"
+   },
+   "options_click_to_copy": {
+      "message": "Copiar código"
+   },
+   "options_click_to_pin": {
+      "message": "Fijar la ventana CSS"
+   },
+   "options_convert_fontsize_to_px": {
+      "message": "Convertir unidades font-size a px"
+   },
+   "options_copy": {
+      "message": "Cópialo"
+   },
+   "options_copy_original_selectors": {
+      "message": "Copie los selectores originales"
+   },
+   "options_dont_copy": {
+      "message": "No lo copies"
+   },
+   "options_dont_copy_selectors_when_possible": {
+      "message": "No copie los selectores de CSS cuando sea posible"
+   },
+   "options_guidelines": {
+      "message": "Guidelines"
+   },
+   "options_ignore_bxsizing": {
+      "message": "Ignorar el tamaño de la caja"
+   },
+   "options_ignore_inherited": {
+      "message": "Ignorar estilos heredados"
+   },
+   "options_ignore_prefixes": {
+      "message": "Ignorar los prefijos del proveedor del navegador"
+   },
+   "options_label_child_elements": {
+      "message": "CSS de elementos secundarios:"
+   },
+   "options_label_click_action": {
+      "message": "Al hacer clic:"
+   },
+   "options_label_copy_preferences_selectors": {
+      "message": "Preferencias de copia para selectores de CSS:"
+   },
+   "options_label_display": {
+      "message": "Mostrar:"
+   },
+   "options_label_html": {
+      "message": "Código HTML:"
+   },
+   "options_label_other_copy_preferences": {
+      "message": "Otras preferencias de copia:"
+   },
+   "options_nest_pseudos": {
+      "message": "Anidar pseudoclases, pseudoelementos y consultas de medios (para SASS/LESS)"
+   },
+   "options_show_grid": {
+      "message": "Grid"
+   },
+   "options_smartly_generate_selectors": {
+      "message": "Genera selectores de forma inteligente"
+   },
+   "options_truncate_classes": {
+      "message": "Selector truncado"
+   },
+   "overlapping": {
+      "message": "superponiendo"
+   },
+   "pause": {
+      "message": "Pausar"
+   },
+   "pause_continue": {
+      "message": "Pausar / Continuar"
+   },
+   "pin_shortcut": {
+      "message": "Fijar el resultado"
+   },
+   "scan_parent": {
+      "message": "Escanear elemento padre"
+   },
+   "shortcuts": {
+      "message": "Atajos de teclado"
+   },
+   "shortcuts_warning_1": {
+      "message": "La página debe estar enfocada para que los atajos funcionen. Es más fácil si siempre abres la extensión por el atajo."
+   },
+   "shortcuts_warning_2": {
+      "message": "También puedes cambiarlos haciendo click en él"
+   },
+   "toggle_grid": {
+      "message": "Activar la cuadrícula"
+   },
+   "whats_new": {
+      "message": "What's New"
+   }
+}

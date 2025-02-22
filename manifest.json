@@ -1,0 +1,55 @@
+{
+  "action": {
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "chromeos": "Ctrl+Shift+S",
+        "linux": "Ctrl+Shift+S",
+        "mac": "Ctrl+Shift+S",
+        "windows": "Ctrl+Shift+S"
+      }
+    },
+    "activate-grid": {
+      "description": "__MSG_toggle_grid__",
+      "suggested_key": {
+        "chromeos": "Ctrl+Shift+X",
+        "linux": "Ctrl+Shift+X",
+        "mac": "Ctrl+Shift+X",
+        "windows": "Ctrl+Shift+X"
+      }
+    },
+    "scan-parent": {
+      "description": "__MSG_scan_parent__",
+      "suggested_key": {
+        "chromeos": "Ctrl+Shift+E",
+        "linux": "Ctrl+Shift+E",
+        "mac": "Ctrl+Shift+E",
+        "windows": "Ctrl+Shift+E"
+      }
+    }
+  },
+  "default_locale": "en",
+  "description": "__MSG_description__",
+  "homepage_url": "https://getcssscan.com",
+  "host_permissions": ["\u003Call_urls>"],
+  "icons": {
+    "128": "icon_128.png",
+    "96": "icon.png"
+  },
+  "manifest_version": 3,
+  "name": "CSS Scan",
+  "permissions": ["storage", "activeTab", "contextMenus", "clipboardWrite", "scripting"],
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "version": "4.3.7",
+  "web_accessible_resources": [
+    {
+      "matches": ["\u003Call_urls>"],
+      "resources": ["icon.png", "spinner.svg", "img/*", "tippy.css", "fontawesome/*", "alert.html"]
+    }
+  ]
+}

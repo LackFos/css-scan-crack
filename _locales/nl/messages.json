@@ -1,0 +1,149 @@
+{
+   "activate": {
+      "message": "Activeer de extensie"
+   },
+   "ask_review": {
+      "message": "Genieten van CSS Scan? Help ons met een recensie"
+   },
+   "click_to_copy": {
+      "message": "Klik om te kopieëren, druk op spatie om vast te zetten"
+   },
+   "click_traverse": {
+      "message": "vast en klik om er doorheen te navigeren"
+   },
+   "close_shortcut": {
+      "message": "Sluit de extensie"
+   },
+   "context_menu": {
+      "message": "Inspecteer met CSS Scan"
+   },
+   "continue": {
+      "message": "Doorgaan met"
+   },
+   "copied": {
+      "message": "Naar het klembord gekopieërd"
+   },
+   "copying": {
+      "message": "Stijlen van alle onderliggende elementen kopiëren...\u003Cbr>Klik nogmaals om te annuleren."
+   },
+   "description": {
+      "message": "Inspecteer en kopieër snel de CSS"
+   },
+   "exit": {
+      "message": "Sluit CSS Scan"
+   },
+   "feedback": {
+      "message": "Terugkoppeling"
+   },
+   "hold": {
+      "message": "houd"
+   },
+   "loading": {
+      "message": "Stijlen worden geladen... Probeer het opnieuw"
+   },
+   "move": {
+      "message": "Beweeg"
+   },
+   "no_styles": {
+      "message": "Geen stijlen gevonden"
+   },
+   "options": {
+      "message": "Opties"
+   },
+   "options_absolute_urls": {
+      "message": "Converteer relatieve URL's naar absoluut"
+   },
+   "options_click_to_copy": {
+      "message": "Kopieer code"
+   },
+   "options_click_to_pin": {
+      "message": "Het CSS-venster vastzetten"
+   },
+   "options_convert_fontsize_to_px": {
+      "message": "Converteer font-size eenheden naar px"
+   },
+   "options_copy": {
+      "message": "Kopieer het"
+   },
+   "options_copy_original_selectors": {
+      "message": "Originele selectors kopiëren"
+   },
+   "options_dont_copy": {
+      "message": "Kopieer het niet"
+   },
+   "options_dont_copy_selectors_when_possible": {
+      "message": "Kopieer geen CSS-kiezers indien mogelijk"
+   },
+   "options_guidelines": {
+      "message": "Guidelines"
+   },
+   "options_ignore_bxsizing": {
+      "message": "Negeer box-sizing"
+   },
+   "options_ignore_inherited": {
+      "message": "Negeer overgeërfde stijlen"
+   },
+   "options_ignore_prefixes": {
+      "message": "Negeer voorvoegsels van browserleveranciers"
+   },
+   "options_label_child_elements": {
+      "message": "CSS van onderliggende elementen:"
+   },
+   "options_label_click_action": {
+      "message": "Bij klikken:"
+   },
+   "options_label_copy_preferences_selectors": {
+      "message": "Kopieervoorkeuren voor CSS-kiezers:"
+   },
+   "options_label_display": {
+      "message": "Weergave:"
+   },
+   "options_label_html": {
+      "message": "HTML code:"
+   },
+   "options_label_other_copy_preferences": {
+      "message": "Andere kopieervoorkeuren:"
+   },
+   "options_nest_pseudos": {
+      "message": "Nest pseudo-klassen, pseudo-elementen en mediaquery's (voor SASS/LESS)"
+   },
+   "options_show_grid": {
+      "message": "Grid"
+   },
+   "options_smartly_generate_selectors": {
+      "message": "Slim selectors genereren"
+   },
+   "options_truncate_classes": {
+      "message": "Afgekapte selector"
+   },
+   "overlapping": {
+      "message": "overlappend"
+   },
+   "pause": {
+      "message": "Pauzeer"
+   },
+   "pause_continue": {
+      "message": "Pauzeer / Doorgaan met"
+   },
+   "pin_shortcut": {
+      "message": "Pin box"
+   },
+   "scan_parent": {
+      "message": "Scan het Parent element"
+   },
+   "shortcuts": {
+      "message": "Snelkoppelingen"
+   },
+   "shortcuts_warning_1": {
+      "message": "De pagina moet gefocussed om de snelkoppeling te laten werken. Hierom is het gemakkelijker om de extensie altijd te openen met de shortcut."
+   },
+   "shortcuts_warning_2": {
+      "message": "Je kunt ze ook veranderen door erop te klikken"
+   },
+   "toggle_grid": {
+      "message": "Wissel grid"
+   },
+   "whats_new": {
+      "message": "Wat is er nieuw"
+   }
+}
