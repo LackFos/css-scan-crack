@@ -6,25 +6,25 @@
     t = document;
   try {
     t = window.top.document;
-  } catch (f) {}
+  } catch (n) {}
   var o = window;
   try {
     window.top.getSelection() && (o = window.top);
-  } catch (f) {}
-  const c = e ? o.wrappedJSObject : o;
-  var i = window.self !== window.top,
-    a = !!i;
-  if (i)
+  } catch (n) {}
+  const i = e ? o.wrappedJSObject : o;
+  var c = window.self !== window.top,
+    a = !!c;
+  if (c)
     try {
       window.top.document && (a = !0);
-    } catch (f) {
+    } catch (n) {
       a = !1;
     }
-  if (window.cssScanUIShadowRoot || c.cssScanUIShadowRoot) {
-    if (((s = window.cssScanUIShadowRoot || c.cssScanUIShadowRoot), e))
+  if (window.cssScanUIShadowRoot || i.cssScanUIShadowRoot) {
+    if (((s = window.cssScanUIShadowRoot || i.cssScanUIShadowRoot), e))
       try {
         s = t.documentElement.querySelector("#cssscan-ui").shadowRoot;
-      } catch (f) {}
+      } catch (n) {}
     s.getElementById("cssscan-license-modal-styles") ||
       (s.innerHTML += `\n      <style id="cssscan-license-modal-styles">\n        ${n}\n      </style>\n    `);
   } else if (!a) {
@@ -34,34 +34,32 @@
       document.querySelector("html").appendChild(e),
       ((s = e.attachShadow({ mode: "open" })).innerHTML = `\n    <style id="cssscan-license-modal-styles">\n      ${n}\n    </style>\n  `),
       (window.cssScanUIShadowRoot = s),
-      (c.cssScanUIShadowRoot = s);
+      (i.cssScanUIShadowRoot = s);
   }
   const l = e ? chrome.extension : chrome.runtime;
   if (!s.getElementById("cssscan-license-modal")) {
     (d = s),
-      (r = "div"),
-      (m = "cssscan-license-modal"),
-      (p = `\n      <div id="cssscan-license-modal-content">\n        <span id="cssscan-license-modal-close">&times;</span>\n        <img src="${l.getURL(
+      "div",
+      "cssscan-license-modal",
+      (r = `\n      <div id="cssscan-license-modal-content">\n        <span id="cssscan-license-modal-close">&times;</span>\n        <img src="${l.getURL(
         "icon.png"
-      )}" id="cssscan-license-modal-img">\n        <h1 id="cssscan-license-modal-h1">CSS Scan - License check</h1>\n        <div id="cssscan-license-modal-step-1">\n          <p class="cssscan-element">Please check <a href="https://mycssscan.com" target="_blank" class="cssscan-element">MyCssScan.com</a> or your receipt and enter your license key to continue:</p>\n          <input type="text" id="cssscan-license-input">\n          <button class="button button-principal" id="cssscan-check-license-btn">Check license key</button>\n          <a id="cssscan-license-modal-contact" href="https://airtable.com/shrsDQGBd3xRdCV2k" target="_blank">Contact Us</a>\n        </div>\n      </div>\n    `),
-      (h = document.createElement(r)).setAttribute("id", m),
-      g && h.setAttribute("class", g),
-      (h.innerHTML = p),
-      d.appendChild(h);
-    const n = s.getElementById("cssscan-license-input");
-    window.onclick = function (e) {
-      const t = e.composedPath()[0];
-      t === s.getElementById("cssscan-check-license-btn") &&
-        n.value.length > 20 &&
-        ((t.innerHTML =
+      )}" id="cssscan-license-modal-img">\n        <h1 id="cssscan-license-modal-h1">CSS Scan - License check</h1>\n        <div id="cssscan-license-modal-step-1">\n   <button class="button button-principal" id="cssscan-check-license-btn">Start </button>\n          <a id="cssscan-license-modal-contact" href="https://airtable.com/shrsDQGBd3xRdCV2k" target="_blank">Contact Us</a>\n        </div>\n      </div>\n    `),
+      (m = document.createElement("div")).setAttribute("id", "cssscan-license-modal"),
+      (m.innerHTML = r),
+      d.appendChild(m);
+    s.getElementById("cssscan-license-input");
+    window.onclick = function (n) {
+      const e = n.composedPath()[0];
+      e === s.getElementById("cssscan-check-license-btn") &&
+        ((e.innerHTML =
           '<div class="cssscan-vertical-align"><svg xmlns="http://www.w3.org/2000/svg" width="15" class="cssscan-margin-right cssscan-spinner" viewBox="0 0 24 24"> <path fill="#ffffff" d="M12,1A11,11,0,1,0,23,12,11,11,0,0,0,12,1Zm0,19a8,8,0,1,1,8-8A8,8,0,0,1,12,20Z" opacity="0.25" /> <path fill="#ffffff" d="M12,4a8,8,0,0,1,7.89,6.7A1.53,1.53,0,0,0,21.38,12h0a1.5,1.5,0,0,0,1.48-1.75,11,11,0,0,0-21.72,0A1.5,1.5,0,0,0,2.62,12h0a1.53,1.53,0,0,0,1.49-1.3A8,8,0,0,1,12,4Z" transform="rotate(360 12 12)" /> </svg>Checking ...</div>'),
-        chrome.runtime.sendMessage({ action: "validate_license", key: n.value.trim() }, function (n) {}));
-      const o = s.getElementById("cssscan-license-modal-close"),
-        c = s.getElementById("cssscan-license-modal");
-      (t != c && t != o) || (c.style.display = "none");
+        chrome.runtime.sendMessage({ action: "validate_license", key: "12345678901234567890" }, function (n) {}));
+      const t = s.getElementById("cssscan-license-modal-close"),
+        o = s.getElementById("cssscan-license-modal");
+      (e != o && e != t) || (o.style.display = "none");
     };
   }
-  var d, r, m, p, g, h;
+  var d, r, m;
   chrome.runtime.onMessage.addListener(function (n, e, t) {
     const o = s.getElementById("cssscan-license-modal");
     return (
@@ -72,7 +70,7 @@
         ? (o.style.display = "none")
         : "validate_result" === n.text &&
           (n.valid
-            ? ((s.getElementById("cssscan-license-modal-h1").innerText = "\u2705 Success!"),
+            ? ((s.getElementById("cssscan-license-modal-h1").innerText = "✅ Success!"),
               (s.getElementById("cssscan-license-modal-step-1").style.display = "none"),
               (s.getElementById("cssscan-license-modal-close").style.display = "none"),
               setTimeout(() => {
